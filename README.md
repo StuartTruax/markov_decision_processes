@@ -23,7 +23,7 @@ A Markov decision process (MDP) is defined by:
 
 + $\gamma$: a discount factor.
 
-The desired result is an optimal policy $\pi^{*}: S \times \{0,...,H\} \rightarrow A$ which describes the optimal action $a^{*}$to be undertaken for each state $s$.
+The desired result is an optimal policy $\pi^{\*}: S \times \{0,...,H\} \rightarrow A$ which describes the optimal action $a^{\*}$to be undertaken for each state $s$.
 
 Alternatively, to find $\pi$ such that:
 
@@ -46,4 +46,4 @@ by the exact solution methods
 | Value iteration |   <img src="images/VI_value_map.png" width="100"> | <img src="images/VI_policy_map.png" width="100"> |
 | Policy iteration |   <img src="images/PI_value_map.png" width="100"> | <img src="images/PI_policy_map.png" width="100"> |
 
-The solution methods yield roughly the same trends in the value and policy functions. 
+The solution methods yield roughly the same trends in the value and policy functions.

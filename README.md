@@ -40,7 +40,7 @@ The solution methods are performed on a "gridworld", a discretized X-Y plane whe
 Below is a comparison of the value and policy maps generated for the MDP gridworld
 by the exact solution methods
 
-| Solution Method | Value Function of Solution | Value Function of Solution |
+| Solution Method | Value Function of Solution | Policy Function of Solution |
 | ------------ | ---------------- |  ---------------- |
 | Linear programming |   <img src="images/LP_value_map.png" width="100"> | <img src="images/LP_policy_map.png" width="100"> |
 | Value iteration |   <img src="images/VI_value_map.png" width="100"> | <img src="images/VI_policy_map.png" width="100"> |

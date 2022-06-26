@@ -34,7 +34,7 @@ $$ \text{max}_{\pi} E[\sum_{t=0}^{H}\gamma^{t} R(s_{t},a_t,s_{t+1})| \pi]$$
 
 The solution methods are performed on a "gridworld", a discretized X-Y plane where the voids and boundaries of the plane are impassable, and rewards for being a given state are indicated by the colors (rewards can be negative).
 
-<center><img src="images/gridworld.png" width="300"><\center>
+<center><img src="images/gridworld.png" width="300"></center>
 
 
 Below is a comparison of the value and policy maps generated for the MDP gridworld
